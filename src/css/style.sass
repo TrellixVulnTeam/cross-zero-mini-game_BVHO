@@ -1,0 +1,30 @@
+$zero: 0
+$width: 300px
+
+*
+	margin: $zero
+	padding: $zero
+
+html, body
+	width: 100%
+	height: 100vh
+
+body
+	display: flex
+	justify-content: center
+	align-items: center
+
+table
+	width: $width
+	border-collapse: collapse
+
+tr, td
+	border: 1px solid black
+	width: $width / 3
+	height: $width / 3
+
+td
+	text-align: center
+	vertical-align: middle
+	/* pointer-events: none */
+	cursor: pointer
